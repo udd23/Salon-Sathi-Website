@@ -1,0 +1,3 @@
+import { PageIntro } from "@/components/page-intro";
+export const metadata = { title: "Privacy" };
+export default function PrivacyPage() { return <main><PageIntro eyebrow="Your privacy" title={<>Care begins<br /><em>with trust.</em></>} copy="SalonSathi privacy information will be published here before customer account and booking data collection is enabled." /><section className="container legal-copy"><h2>Information and choices</h2><p>This project does not currently collect or submit customer data through a connected backend. Before launch, this page must explain what information the service processes, why it is used, how long it is retained, and how customers can exercise their choices.</p></section></main>; }

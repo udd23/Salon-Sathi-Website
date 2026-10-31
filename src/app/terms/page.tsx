@@ -1,0 +1,3 @@
+import { PageIntro } from "@/components/page-intro";
+export const metadata = { title: "Terms" };
+export default function TermsPage() { return <main><PageIntro eyebrow="Terms of use" title={<>Clear expectations.<br /><em>Better experiences.</em></>} copy="Terms for SalonSathi customers and partners will be published here before bookings or partner applications are enabled." /><section className="container legal-copy"><h2>Before you book</h2><p>Appointment, payment, cancellation, and partner terms depend on SalonSathi’s existing operating policies. No booking or payment is processed by this website yet.</p></section></main>; }
